@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8846937293649887334}
   - component: {fileID: 4533943872388498668}
   - component: {fileID: 5446531990034591288}
+  - component: {fileID: 8785849804319419191}
   m_Layer: 0
   m_Name: BaseEnemy
   m_TagString: Untagged
@@ -77,6 +78,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10.6, y: 3.1, z: 17.9}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8785849804319419191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2318654801487727755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0ea51b4fd230274b94d8c107d0a393d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  destroyedVFX: {fileID: 4079189769391143298, guid: ef1b9d6d69113fa449b41f7967a43152, type: 3}
+  hitPoints: 3
+  scoreValue: 10
 --- !u!1 &5967236588110047461
 GameObject:
   m_ObjectHideFlags: 0
